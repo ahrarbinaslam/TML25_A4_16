@@ -72,7 +72,7 @@ We compared the binary masks from LIME and Grad-CAM using the Intersection over 
 
 ## Discussion & Insights
 
-The observed average IoU of 0.1198 indicates that LIME and Grad-CAM highlight different regions, with only partial overlap. This aligns with their core design differences—Grad-CAM captures class-level spatial importance, whereas LIME focuses on interpretable, local perturbation-driven features.
+The observed average IoU of 0.1198 indicates that LIME and Grad-CAM highlight different regions, with only partial overlap. This aligns with their core design differences Grad-CAM captures class-level spatial importance, whereas LIME focuses on interpretable, local perturbation-driven features.
 
 We noticed that:
 - Simple objects like `tiger_shark` and `American_coot` had higher IoUs, implying better agreement.
@@ -83,5 +83,9 @@ We noticed that:
 ## Conclusion
 
 This assignment provided valuable experience in applying and comparing three major explainability methods. We gained practical insights into how convolutional networks make decisions, how different techniques interpret those decisions, and how to critically analyze their alignment.
+
+## How to Run the Notebooks
+
+All four tasks are implemented as on Kaggle notebooks, where you get up to 2 GPUs for free. We did the previous three assignments on Colab, however due to Kaggle providing 2 GPUs it made our implementation faster. However, you may also run them on Google Colab. No `requirements.txt` is necessary.
 
 ---
